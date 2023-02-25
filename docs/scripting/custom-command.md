@@ -78,7 +78,8 @@ Now comes the fun part - creating our custom commands. First, we will add the mo
 import { world } from '@minecraft/server';
 ```
 
-Next, we will add simple commands, such as `!gmc` to change our gamemode to creative and `!gms` to change into survival.
+Make sure you din't use a slash as the prefix. It's recommended to use "." or "!".
+For example let's add simple commands, such as `!gmc` to change our gamemode to creative and `!gms` to chnage into survival.
 
 <CodeHeader>BP/scripts/index.js</CodeHeader>
 
